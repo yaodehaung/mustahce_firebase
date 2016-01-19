@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/*-----default-----------------------------------*/
+body,div,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote,th,td{margin:0;padding:0;line-height:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+ol,ul{list-style:none;margin:0;padding:0;}
+hr{margin:0px;}
+img{max-width:100%;height:auto;}
+div,p,span{line-height:inherit;}
+
+/*-----basic-----------------------------------*/
+html{overflow:-moz-scrollbars-vertical; overflow-y:scroll;z-index: 999;font-size:15px;}
+body{font-family: Arila, "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", sans-serif;color:#000;-webkit-text-size-adjust:none;background:#fff;}
+a,a:hover,a:focus{color:#000;text-decoration:none;}
+
+/*-----global-----------------------------------*/
+td{
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+/*-----RWD-----------------------------------*/
+/*768以下（480~768）*/
+@media (max-width:767px){
+}
+
+
+
+/*480以下*/
+@media (max-width:479px){
+}
+
+
+
+/*768~1023*/
+@media (min-width:768px) and (max-width:1023px){
+}
+
+
+
+/*1024以上（1024~1279）*/
+@media (min-width:1024px){
+}
+
+
+
+/*1280以上*/
+@media (min-width:1280px){
+}
